@@ -1,0 +1,108 @@
+{
+  "employeList": [
+    {
+      "firstName": "sameer",
+      "lastName": "khan",
+      "emailId": "sameer12@gmail.com",
+      "mobileNumber": "8087200455",
+      "country": "singapore",
+      "id": 1
+    },
+    {
+      "firstName": "aahil",
+      "lastName": "patel",
+      "emailId": "sahil25@gmail.com",
+      "mobileNumber": "9876543210",
+      "country": "turkey",
+      "id": 2
+    },
+    {
+      "firstName": "poja",
+      "lastName": "rode",
+      "emailId": "srode@gmail.com",
+      "mobileNumber": "9923223466",
+      "country": "newZealand",
+      "id": 3
+    },
+    {
+      "firstName": "benzema",
+      "lastName": "karim",
+      "emailId": "benzema@gmail.com",
+      "mobileNumber": "9820456204",
+      "country": "singapore",
+      "id": 4
+    },
+    {
+      "firstName": "zain",
+      "lastName": "deshmukh",
+      "emailId": "zain45@gmail.com",
+      "mobileNumber": "+919080706050",
+      "country": "newZealand",
+      "id": 6
+    },
+    {
+      "firstName": "ravish",
+      "lastName": "chaugle",
+      "emailId": "ravish@gmail.com",
+      "mobileNumber": "9865204500",
+      "country": "singapore",
+      "id": 7
+    },
+    {
+      "firstName": "mohammed",
+      "lastName": "abubakar",
+      "emailId": "abubakar@gmail.com",
+      "mobileNumber": "9865321470",
+      "country": "turkey",
+      "id": 8
+    },
+    {
+      "firstName": "umar",
+      "lastName": "shaikh",
+      "emailId": "umar@gmail.com",
+      "mobileNumber": "9532045607",
+      "country": "turkey",
+      "id": 9
+    },
+    {
+      "firstName": "virat",
+      "lastName": "kholi",
+      "emailId": "virat12@yahoo.com",
+      "mobileNumber": "+919562485634",
+      "country": "newZealand",
+      "id": 10
+    },
+    {
+      "firstName": "pragya",
+      "lastName": "kaskar",
+      "emailId": "pragya@gmail.com",
+      "mobileNumber": "+915628406505",
+      "country": "singapore",
+      "id": 11
+    },
+    {
+      "firstName": "depika",
+      "lastName": "kapoor",
+      "emailId": "depika@yahoo.com",
+      "mobileNumber": "9565324089",
+      "country": "newZealand",
+      "id": 12
+    },
+    {
+      "firstName": "ranveer",
+      "lastName": "singh",
+      "emailId": "ranveer@gmail.com",
+      "mobileNumber": "+912565802648",
+      "country": "newZealand",
+      "id": 13
+    },
+    {
+      "firstName": "sonam",
+      "lastName": "kapor",
+      "emailId": "sonamkapor@gmail.com",
+      "mobileNumber": "+919063543214",
+      "country": "turkey",
+      "id": 14
+    }
+  ]
+}

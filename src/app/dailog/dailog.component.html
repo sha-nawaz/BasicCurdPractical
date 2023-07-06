@@ -1,0 +1,81 @@
+<h3 mat-dialog-title>Add Employe Form</h3>
+<div mat-dialog-content>
+<form [formGroup]="employeForm">
+ 
+    <mat-form-field appearance="outline">
+      <mat-label>First Name</mat-label>
+      <input formControlName="firstName" matInput placeholder="Placeholder">
+
+
+
+      <mat-hint style="color:red;" *ngIf="FirstName.errors?.['required'] && (FirstName.dirty || FirstName.touched)">
+        FirstName is required & must be 2 characters </mat-hint>
+
+
+
+      <mat-hint style="color:red;" *ngIf="FirstName.errors?.['pattern'] &&(FirstName.dirty || FirstName.touched)">
+        FirstName shuould be a alphabate</mat-hint>
+
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Last Name</mat-label>
+      <input formControlName="lastName" matInput placeholder="Placeholder">
+
+
+      <mat-hint style="color:red;" *ngIf="LastName.errors?.['required'] && (LastName.dirty || LastName.touched)">
+        LastName is required & must be 2 characters </mat-hint>
+
+
+
+      <mat-hint style="color:red;" *ngIf="LastName.errors?.['pattern'] &&(LastName.dirty || LastName.touched)">
+        LastName shuould be a alphabate</mat-hint>
+
+
+
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Email-Id</mat-label>
+      <input formControlName="emailId" matInput placeholder="Placeholder">
+
+      <mat-hint style="color:red;" *ngIf="Email.errors?.['required'] && (Email.dirty || Email.touched)">Email is
+        required</mat-hint>
+      <mat-hint style="color:red;" *ngIf="Email.errors?.['pattern'] &&(Email.dirty || Email.touched)">Email must be a
+        valid email address</mat-hint>
+
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Mobile-Number</mat-label>
+      <input formControlName="mobileNumber" matInput placeholder="Placeholder">
+
+      <mat-hint style="color:red;"
+        *ngIf="MobileNo.errors?.['required'] && (MobileNo.dirty || MobileNo.touched)">MobileNumber is
+        required</mat-hint>
+      <mat-hint style="color:red;" *ngIf="MobileNo.errors?.['pattern'] &&(MobileNo.dirty || MobileNo.touched)">Please
+        enter 10digit MobileNumber</mat-hint>
+
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Country</mat-label>
+      <mat-select formControlName="country" placeholder="selct country">
+
+        
+        <mat-option value="singapore">Singapore</mat-option>
+        <mat-option value="turkey">Turkey</mat-option>
+        <mat-option value="newZealand">New Zealand</mat-option>
+      </mat-select>
+
+      <mat-hint style="color:red;"
+        *ngIf="Country.errors?.['required'] && (Country.dirty || Country.touched)">Country is
+        required</mat-hint>
+    </mat-form-field>
+
+</form>  </div>
+
+<div mat-dialog-actions [align]="'end'">
+  <button style="margin-right: 1rem;" mat-raised-button color="warn" mat-dialog-close>close</button>
+  <button style="margin-right: 1rem;" mat-raised-button color="primary" (click)="addEmploye()">{{actionBtn}}</button>
+</div>
